@@ -1,0 +1,120 @@
+body{
+	margin:0;
+	font-family:arial;
+	background: #fdfefe;
+
+}
+header{
+	/*background:linear-gradient(white,grey)*/
+	padding: 15px 55px;
+	flex-wrap: wrap;
+	position: fixed;
+	background: black;
+	width:100%;
+	z-index: 3000;
+	opacity: 0.85;
+	height:60px;
+}
+nav ul li{
+	display:inline-block;
+	margin:0;
+	list-style-type: none;
+	flex-wrap: wrap;
+}
+button{
+	float:right;
+	position: relative;
+	background: none;
+	border:none;
+	margin-right:100px;
+	margin-top:15px;
+}
+
+button a{
+background: none;
+color:white;
+padding:10px 10px;
+
+ text-decoration: none;
+ font-weight: bold;
+ 
+
+
+}
+button a:hover{
+	
+	color:white;
+	zoom:110%;
+}
+nav a{
+text-decoration: none;
+}
+
+
+header h1{
+display:inline;
+color:white;
+font-style: italic;
+
+}
+h1 span{
+	font-size: 30px;
+	font-style: italic;
+	color:#4286F4;
+	opacity: 100%;
+}
+nav p{
+	color:white;
+	margin: 5px ;
+	margin-bottom: 0px;
+}
+/*h1 span{
+	color:black;
+}
+p span{
+	color:black;
+}*/
+nav ul{
+	display:inline;
+	flex-wrap: wrap;
+}
+.main{
+	flex-wrap:wrap;
+	position:relative;
+	text-align:  center;
+	top:100;
+}
+.box{
+		display:inline-block;
+	height:100px;
+	width:200px;
+	margin:10px;
+	text-align: center;
+	padding-top:80px;
+	color:white;
+	font-weight: bold;
+}
+.box:hover{
+	color:black;
+	border-radius: 30px;
+}
+.copy_button{
+	color:white;
+	font-weight: bold;
+	background: none;
+	border:none;
+	height:180px;
+	width:180px;
+}
+footer{
+	position:relative;
+bottom: 0;
+margin-top: 30px;
+color:white;
+background:black;
+height:60px;
+padding-top: 40px;
+font-family: arial;
+font-weight:bold;
+}
+
